@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'opensanscondensedbold';
+    src: url('fonts/opensanscondensedbold.eot');
+    src: url('fonts/opensanscondensedbold.eot') format('embedded-opentype'),
+         url('fonts/opensanscondensedbold.woff2') format('woff2'),
+         url('fonts/opensanscondensedbold.woff') format('woff'),
+         url('fonts/opensanscondensedbold.ttf') format('truetype'),
+         url('fonts/opensanscondensedbold.svg#opensanscondensedbold') format('svg');
+}

@@ -1,0 +1,65 @@
+body{
+    height:100%;
+    width:100%;
+}
+@font-face {
+    font-family: 'opensanscondlight';
+    src: url('../fonts/opensanscondlight.eot');
+    src: url('../fonts/opensanscondlight.eot') format('embedded-opentype'),
+         url('../fonts/opensanscondlight.woff2') format('woff2'),
+         url('../fonts/opensanscondlight.woff') format('woff'),
+         url('../fonts/opensanscondlight.ttf') format('truetype'),
+         url('../fonts/opensanscondlight.svg#opensanscondlight') format('svg');
+}
+@font-face {
+    font-family: 'opensanscondensedbold';
+    src: url('../fonts/opensanscondensedbold.eot');
+    src: url('../fonts/opensanscondensedbold.eot') format('embedded-opentype'),
+         url('../fonts/opensanscondensedbold.woff2') format('woff2'),
+         url('../fonts/opensanscondensedbold.woff') format('woff'),
+         url('../fonts/opensanscondensedbold.ttf') format('truetype'),
+         url('../fonts/opensanscondensedbold.svg#opensanscondensedbold') format('svg');
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+p{
+	font-family:'opensanscondlight', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+}
+h1{
+    font-family:'opensanscondensedbold', sans-serif;
+}
+.header {
+	background: #ffffff;
+	height: 290px;
+    padding: 40px 0px 0px 0px;
+}
+.map {
+    font-style: italic;
+}
+.infobox {
+    color: white;
+    background-image:linear-gradient(to top, rgba(41,40,43,0.4), rgba(41,40,43,0.4)), url(../img/1.jpg);
+	height: 280px;
+	text-align: justify;
+}
+.description_about {
+    padding: 25px 0px 0px 0px;
+}
+.contacts {
+    color: white;
+	background: #23374F;
+	height: 250px;
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+.footer {
+    color: white;
+	background: #45B7E3;
+	height: 71px;
+    padding: 15px 0px 0px 0px;
+    text-align: right;
+}
