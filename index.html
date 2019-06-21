@@ -4,45 +4,46 @@
 	<meta charset ="UTF-8">
 	<title>Site</title>
 	<link rel="stylesheet" href="css/style.css">
-	<style type="text/css">	
-		* {
-		  margin:0;
-		  padding:0;
-	  }
-    </style>
 </head>
 <body>
 	<div class="header">
        <div class="container">
-		    <div class="label"><h1>БРЕНД.ru</h1></div>
-		    <div class="map"><p>Главная</p></div>
-			<p>История обо мне</p>
-			<p>Мой блог</p>
-			<p>Контакты</p>
+		    <div class="header__label"><h1>БРЕНД.ru</h1></div>
+			<div class="header__map header__common"><a>Главная</a></div>
+			<div class="header__common"><a href="#info">История обо мне</a></div>
+			<div class="header__common"><a href="#">Мой блог</a></div>
+			<div class="header__common"><a href="#contacts">Контакты</a></div>
+			<div class="header__common"><a href="#">Моя вторая страница</a></div>
 		</div>
 	</div>
-
+	<a name="info"></a>
 	<div class="infobox">
 		<div class="container">
-			<div class="description_about"><h1>КРАТКАЯ ИНФОРМАЦИЯ ОБО МНЕ</h1></div>
-			<div class="description"><p>Здесь нужно написать краткую информацию о себе, интересы, какие у тебя есть хобби, какие ты смотришь сериалы или фильмы и тд.</p>
-	</div>
+			<h2 class="infobox__title">КРАТКАЯ ИНФОРМАЦИЯ ОБО МНЕ</h2>
+			<p class="infobox__description">
+				Привет всем, меня зовут Катя, мне 24 года, у меня много хобби, и одно из них - готовить сладости.
+			</p>
 	    </div>
 	</div>
-	
+	<a name="contacts"></a>
 	<div class="contacts">
 		<div class="container">
-			<div class="contacts_1"><h1>КОНТАКТЫ</h1></div>
-			<div class="contacts_2"></div><p>Ссылка на VK</p>
-			<p>Ссылка на Instagram</p>
-			<p>Номер сотового</p>
-		    </div>
+			<h2 class="contacts__title">КОНТАКТЫ</h2>
+			<div class="contacts__link">
+				<a href="https://vk.com">Ссылка на VK</a>
+			</div>
+			<div class="contacts__link">
+				<a href="https://www.instagram.com">Ссылка на Instagram</a>
+			</div>
+			<div class="contacts__link">
+				<a href="tel:+4374587475489">Номер сотового</a>
+			</div>
 		</div>
 	</div>
    
 	<div class="footer">
 		<div class="container">
-			<div class="site"><p>© 2019, my-site.ru</p></div>
+			<div class="footer__site"><p>© 2019, my-site.ru</p></div>
 		</div>
 	</div>
 </body>

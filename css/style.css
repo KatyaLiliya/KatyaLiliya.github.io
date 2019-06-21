@@ -1,41 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
 body{
+    margin: 0;
     height:100%;
     width:100%;
-}
-@font-face {
-    font-family: 'opensanscondlight';
-    src: url('../fonts/opensanscondlight.eot');
-    src: url('../fonts/opensanscondlight.eot') format('embedded-opentype'),
-         url('../fonts/opensanscondlight.woff2') format('woff2'),
-         url('../fonts/opensanscondlight.woff') format('woff'),
-         url('../fonts/opensanscondlight.ttf') format('truetype'),
-         url('../fonts/opensanscondlight.svg#opensanscondlight') format('svg');
-}
-@font-face {
-    font-family: 'opensanscondensedbold';
-    src: url('../fonts/opensanscondensedbold.eot');
-    src: url('../fonts/opensanscondensedbold.eot') format('embedded-opentype'),
-         url('../fonts/opensanscondensedbold.woff2') format('woff2'),
-         url('../fonts/opensanscondensedbold.woff') format('woff'),
-         url('../fonts/opensanscondensedbold.ttf') format('truetype'),
-         url('../fonts/opensanscondensedbold.svg#opensanscondensedbold') format('svg');
 }
 .container{
     max-width: 900px;
     margin: 0 auto;
 }
-p{
-	font-family:'opensanscondlight', sans-serif;
-	font-size: 25px;
-	line-height: 40px;
+a{
+    text-decoration: none;
 }
-h1{
-    font-family:'opensanscondensedbold', sans-serif;
+h1,h2,h3,p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
 }
+
 .header {
-	background: #ffffff;
-	height: 290px;
-    padding: 40px 0px 0px 0px;
+    background: #ffffff;
+    padding-bottom: 60px;
+}
+.header__common{
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: 300;
+}
+.header__common>a{
+    color: black;
+}
+.header__label{
+    padding: 30px 0px 16px 0px;
+    font-size: 48px;
+    line-height: 72px;
 }
 .map {
     font-style: italic;
@@ -43,23 +39,47 @@ h1{
 .infobox {
     color: white;
     background-image:linear-gradient(to top, rgba(41,40,43,0.4), rgba(41,40,43,0.4)), url(../img/1.jpg);
-	height: 280px;
-	text-align: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    padding: 50px 0;
 }
-.description_about {
-    padding: 25px 0px 0px 0px;
+.infobox__title{
+    font-size: 48px;
+    line-height: 72px;
+}
+.infobox__description{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
 }
 .contacts {
     color: white;
 	background: #23374F;
-	height: 250px;
     text-align: center;
-    padding: 35px 0px 0px 0px;
+    padding: 30px 0;
+}
+.contacts__title{
+    font-size: 48px;
+    line-height: 72px;
+}
+.contacts__link{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+}
+.contacts__link>a{
+    color: white;
 }
 .footer {
     color: white;
 	background: #45B7E3;
-	height: 71px;
-    padding: 15px 0px 0px 0px;
     text-align: right;
+}
+.footer__site{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    padding: 23px 0;
 }
