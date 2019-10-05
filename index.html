@@ -1,54 +1,60 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link href="main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
-  <title>Site</title>
+  <title>Widget</title>
 </head>
 <body>
-  <div class="header">
-  <div class="container"> 
-    <div class="header__label"><img src="../img/Logo.png"></div>
-      <div class="header__map header__common"><a class="header__map header__common" href="" class="header__map header__common">Главная</a>
-        <a class="header__common" href="#info">История обо мне</a>
-        <a class="header__common" href="blog.html">Мой блог</a>
-  <a class="header__common" href="#contacts">Контакты</a>
-</div>
-</div>
-</div>
-  <a name="info"></a>
-<div class="infobox">
-    <div class="container">
-        <h2 class="infobox__title">КРАТКАЯ ИНФОРМАЦИЯ ОБО МНЕ</h2>
-        <p class="infobox__description">
-            Привет всем, меня зовут Катя, мне 24 года, у меня много хобби, и одно из них - готовить сладости.
-        </p>
-    </div>
-</div>
-
-  <a name="contacts"></a>
-<div class="contacts">
-    <div class="container">
-        <h2 class="contacts__title">КОНТАКТЫ</h2>
-        <div class="contacts__link">
-            <a href="https://vk.com">Ссылка на VK</a>
+  <div class="container">
+    <div class="widget">
+      <div class="tab">
+        <button class="tablinks tablinks_js">Футболки</button>
+        <button class="tablinks tablinks_js">Майки</button>
+        <button class="tablinks tablinks_js">Носки</button>
+        <button class="tablinks tablinks_js">Джинсы</button>
+        <button class="tablinks tablinks_js">Брюки</button>
+      </div>
+      <div class="pics-content">
+        <div id="tShirt" class="tabcontent">
+          <div class="pics-content__main"></div>
+          </div>
+        <div id="top" class="tabcontent">
+          <div class="pics-content__main"></div>
         </div>
-        <div class="contacts__link">
-            <a href="https://www.instagram.com">Ссылка на Instagram</a>
+        <div id="socks" class="tabcontent">
+          <div class="pics-content__main"></div>
         </div>
-        <div class="contacts__link">
-            <a href="tel:+4374587475489">Номер сотового</a>
+        <div id="jeans" class="tabcontent">
+          <div class="pics-content__main"></div>
         </div>
+        <div id="pants" class="tabcontent">
+          <div class="pics-content__main"></div>
+        </div>
+      <div class="pics-content__main"></div>
+      <div class="f">
+        <div class="pic1"><img src="img\tShirt.jpg" width="95" height="95"></div> 
+        <div class="a"></div>
+      </div>
+      <div class="f">
+        <div class="pic2"><img src="img\top.jpg" width="95" height="95"></div>
+        <div class="a"></div>
+      </div>
+      <div class="f">
+        <div class="pic3"><img src="img\socks.jpg" width="95" height="95"></div>
+        <div class="a"></div>
+      </div>
+      <div class="f">
+        <div class="pic4"><img src="img\jeans.png" width="80" height="95"></div> 
+        <div class="a"></div>
+      </div>
+      <div class="f">
+        <div class="pic5"><img src="img\pants.jpg" width="95" height="95"></div> 
+        <div class="a"></div>
+      </div>
+      </div>
     </div>
-</div>
-
-  <div class="footer">
-    <div class="container">
-        <div class="footer__site "><p>© 2019, my-site.ru</p></div>
-    </div>
-</div>
-
+  </div>
 </body>
 <script src="script.js"></script>
 </html>
